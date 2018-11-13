@@ -1,0 +1,58 @@
+.menudiv1
+{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.menudiv2
+{
+    display:flex;
+    justify-content: space-around;
+    width:40%;
+}
+p
+{
+    font-size: 30px;
+    color:Red;
+}
+.img1
+{
+    display:flex;
+    justify-content:center;
+}
+p
+{
+    padding:0px 20px;
+}
+.screendiv
+{
+    display:flex;
+    justify-content: space-around;  
+}
+.screenP
+{
+    color:red;
+    text-align: center;
+}
+.rulesP
+{
+    color:red;
+    text-align: center;
+}
+.rulesdiv
+{
+    display:flex;
+    justify-content: space-between;
+    width:100%; 
+}
+.autordiv
+{
+    display:flex;
+    justify-content: space-around;
+    width:100%; 
+}
+.autorP
+{
+    color:red;
+    text-align: center; 
+}
