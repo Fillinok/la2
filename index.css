@@ -1,14 +1,16 @@
 .menudiv1
 {
+    margin: 7px 10px;
     display:flex;
     justify-content: space-between;
     width:100%;
 }
 .menudiv2
 {
+    margin:0px 20px;
     display:flex;
-    justify-content: space-around;
-    width:40%;
+    justify-content:space-between; 
+    width:33%;
 }
 p
 {
@@ -20,49 +22,29 @@ p
     display:flex;
     justify-content:center;
 }
-p
-{
-    padding:0px 20px;
-}
+
 .screendiv
 {
     display:flex;
-    justify-content: space-around;  
+    justify-content: space-around; 
+    width:100%;  
 }
-.screenP
+.razdel
 {
     color:red;
     text-align: center;
-}
-.rulesP
-{
-    color:red;
-    text-align: center;
-}
-.rulesdiv
-{
-    display:flex;
-    justify-content: space-between;
-    width:100%; 
-}
-.autordiv
-{
-    display:flex;
-    justify-content: space-around;
-    width:100%; 
-}
-.autorP
-{
-    color:red;
-    text-align: center; 
 }
 .action:hover
 {
     color:blue;
     background: red;
+    border: 5px solid red;
+
 }
 .p1
 {
-    font-size:40px;
+    font-size:30px;
     color:red;
+    text-decoration: none;
+    font-family: mistral;
 }
