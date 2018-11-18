@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
 <title>Морской бой</title>
 <link href='index.css' rel='stylesheet' type='text/css'>
 </head>
 <body style="background: rgb(17, 90, 136)">
-    <div class="menudiv1">
-        <div>
+    <ul class="menudiv1">
+        <li>
             <a href="#game" class="p1 action ">Игра</a>
-        </div>
-        <div class="menudiv2">
+        </li>
+        <li class="menudiv2">
             <nav>
                 <a class="p1 action ">Меню</a>
-                <a href="#screen" class="p1 action ">Игровые экраны</a>
-                <a href="#rule" class="p1 action ">Правила</a>
-                <a href="#me" class="p1 action ">Об авторе</a>
-        </div>
-    </div>
-    <div class="img1">
-        <img src="1.jpg" style="width:99%;height:400px;" >
+                <a href="#screen" class="hidden p1 action ">Игровые экраны</a>
+                <a href="#rule" class="hidden p1 action ">Правила</a>
+                <a href="#me" class="hidden p1 action ">Об авторе</a>
+        </li>
+    </ul>
+    <div>
+        <img class="img11" src="1.jpg" style="width:99%;height:400px;" >
     </div>
     <a name="screen"></a>
     <p class="p1 razdel ">Игровые экраны</p>
     <div class="screendiv">
-        <img class='img1' src="2.jpg"  style="width:30%;height:400px;" >
-        <img class='img1' src="3.png"  style="width:30%;height:400px;" >
-        <img class='img1' src="4.jpg"  style="width:30%;height:400px;" >
+        <img class='img1' src="2.jpg">
+        <img class='img1' src="3.png">
+        <img class='img1' src="4.jpg">
     </div> 
     <a name="rule"></a>
     <p class="p1 razdel">Правила</p>
     <div class="screendiv">
         <div>
-            <p>Игровое поле — обычно квадрат 10×10 у каждого игрока, на котором размещается флот кораблей. Горизонтали обычно нумеруются сверху вниз, а вертикали помечаются буквами слева направо.</p>
-            <img class='img1' src="5.png" alt="See Batle(main pic)" style="width:100%;height:400px;padding:0px 20px;" >
+            <p class="telP">Игровое поле — обычно квадрат 10×10 у каждого игрока, на котором размещается флот кораблей. Горизонтали обычно нумеруются сверху вниз, а вертикали помечаются буквами слева направо.</p>
+            <img class='img1 img2' src="5.png">
         </div>
         <div>
-            <p> Размещаются:1 корабль — 4 клетки, 2 корабля — 3 клетк, 3 корабля — 2 клетки, 4 корабля — 1 клетка.
+            <p class="telP"> Размещаются:1 корабль — 4 клетки, 2 корабля — 3 клетк, 3 корабля — 2 клетки, 4 корабля — 1 клетка.
                 При размещении корабли не могут касаться друг друга сторонами и углами
             </p>
             <div style="display:flex ;justify-content: center;">
-                    <img class='img1' src="6.png" alt="See Batle(main pic)" style="width:60%;height:400px;" >
+                    <img class='img1 img3' src="6.png">
             </div>
         </div>
     </div>
     <div >
-        <p>При попадании в корабль противника — на чужом поле ставится крестик, при холостом выстреле — точка. Попавший стреляет ещё раз.</p>
+        <p class="telP"
+        >При попадании в корабль противника — на чужом поле ставится крестик, при холостом выстреле — точка. Попавший стреляет ещё раз.</p>
         <div style="display:flex ;justify-content: center;">
-        <img class='img1' src="7.png" alt="See Batle(main pic)" style="width:30%;height:400px;" >
+        <img class='img1 img4' src="7.png"  >
         </div>   
     </div>
     <a name="me"></a>
     <p class="p1 razdel">Об авторе</p>
     <div class="screendiv">
-        <img class='img1' src="8.jpg" alt="See Batle(main pic)" style="width:300px;height:300px;" >
+        <img class='img1 me' src="8.jpg"   >
         <div>
             <p>And HIS NAME IS <br><b>EVGENIY LYZKO</b></p>
             <p class="p1">Immortal</p>
